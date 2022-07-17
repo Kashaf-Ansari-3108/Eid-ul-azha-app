@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+.main h3{
+    font-family: 'Updock', cursive;
+}
+.main, .content{
+    color: white;
+}
+.main{
+background-image: url("./img/main.jpg");
+height: 500px;
+text-align: center;
+position: relative;
+}
+.main .col{
+    position: absolute;
+    top: 50px;
+    background-color: rgba(255, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.main .col:hover{
+    background-color: rgba(255, 208, 0, 0.4);
+}
+.content{
+    background-image: url("./img/content.jpg");
+    text-align: center;
+    position: relative;
+}
+
+.content #eid1,.content #eid2,.content #eid3{
+text-align: center;
+margin: 50px;
+background-color: rgba(255, 0, 0, 0.4);
+border-radius: 50px;
+padding: 20px;
+}
+.content #eid1:hover,.content #eid2:hover,.content #eid3:hover{
+    background-color: rgba(255, 208, 0, 0.4);
+}
+.qurbani{
+    background-image: url("./img/qurbani.jpg");
+    height: 500px;
+    text-align: center;
+    color: rgb(4, 4, 69);
+    position: relative;
+}
+.qurbani .col{
+position: absolute;
+top: 50px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 10px;
+    margin: 10px;
+    
+}
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover,p:hover{
+    text-decoration: underline;
+    
+}
+.qurbani h4{
+    display: inline-block;
+    border: 2px dotted dodgerblue;
+}
+
